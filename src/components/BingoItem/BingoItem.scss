@@ -1,0 +1,26 @@
+.BingoItem {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  .circle {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    &.active {
+      border-radius: 25px;
+      border: 3px solid red;
+    }
+  }
+  .number {
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 1px;
+  }
+}
