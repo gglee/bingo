@@ -1,10 +1,10 @@
 import React from 'react';
-import Bingo from './components/Bingo';
+import BingoContainer from './containers/list/BingoContainer';
 
 const App = () => {
   return (
     <div>
-      <Bingo />
+      <BingoContainer />
     </div>
   );
 };

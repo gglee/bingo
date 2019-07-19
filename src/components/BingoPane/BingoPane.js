@@ -1,8 +1,8 @@
 import React from 'react';
 import './BingoPane.scss';
 
-const BingoPane = () => {
-  return <div className="BingoPane">ㅇㅋ</div>;
+const BingoPane = ({ children }) => {
+  return <div className="BingoPane">{children}</div>;
 };
 
 export default BingoPane;
